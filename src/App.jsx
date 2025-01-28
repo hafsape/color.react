@@ -10,7 +10,7 @@ function App() {
     
     <div  style={{height:"100vh",backgroundColor:clr} }className='d-flex flex-column text-light align-items-center justify-content-center'>
       <h1>Background Changing App</h1>
-      <div style={{backgroundColor:"white",height:"50px",borderRadius:"20px"}} className='d-flex mt-5  align-items-center justify-content-center' >
+      <div style={{backgroundColor:"white",height:"55px",borderRadius:"20px"}} className='d-flex mt-5  align-items-center justify-content-center' >
          <button onClick={()=>setClr("red")} className='btn btn-danger' >red</button>
          <button onClick={()=>setClr("orange")} className='btn btn-warning' >orange</button>
          <button onClick={()=>setClr("blue")} className='btn btn-info'>blue</button>
